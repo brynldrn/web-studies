@@ -1,0 +1,115 @@
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+	.col {  margin: 1% 0 1% 0%; }
+    
+    .span-1, .span-2, .span-3, .span-4, .span-5, .span-6, .span-7, .span-8, .span-9, .span-10, .span-11, .span-12 {
+	width: 100% !important; 
+	}
+    
+/*
+    footer .span-3 {
+        width: 23.72% !important;
+    }
+*/
+    
+    .headCTA {
+        padding-top: 60px !important;
+    }
+    
+    .headCTA span {
+        font-size: 50px !important;
+    }
+    
+    .headCTA p {
+        padding-right: 0;
+        padding-left: 5px;
+    }
+    
+    .something-new .offset-p {
+        padding-top: 0 !important;
+    }
+    
+    .box-small {
+        background-image: none;
+        background-color: #bd8cbf;
+    }
+    
+    .box-large {
+        background-image: none;
+        background-color: #f5989d;
+    }
+    
+    .power {
+        padding-top: 320px;
+    }
+    
+    .power p {
+        padding-right: 0;
+    }
+    
+    .power .cta-power span {
+        margin-top: 0;
+        font-size: 40px !important;
+    }
+    
+    .item:last-child {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    
+    
+    .col {  margin: 1% 0 1% 0%; }
+    
+    .headCTA p {
+        padding-right: 0;
+        padding-left: 5px;
+    }
+    
+    .box-small {
+        background-image: none !important;
+        background-color: #bd8cbf !important;
+    }
+    
+    .something-new .offset-p {
+        padding-top: 90px;
+    }
+    
+    .features .span-4,
+    .features .span-8 {
+        width: 100%;
+    }
+    
+    .details .span-3 {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    
+    
+    .col {  margin: 1% 0 1% 0%; }
+
+    
+    .something-new .offset-p {
+        padding-top: 90px;
+    }
+    
+    .details .span-3 {
+        width: 50%;
+    }
+    
+    .box-small {
+        background-size: 100% 100%;
+    }
+    
+    .box-large {
+        max-width: 620px;
+        background-size: 100% 100%;
+    }
+    
+    .features .green {
+        padding-top: 28px;
+    }
+}

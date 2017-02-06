@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+p {
+    font-size: 16px;
+    line-height: 170%;
+    color: #959595;
+    padding-right: 20px;
+}
+
+h1 {
+    font-size: 37px;
+}
+
+h1,
+h2,
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*  SECTIONS  */
+.row {
+	clear: both;
+	padding: 0px;
+	margin: 0 30px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.7%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+.span-12 {
+	width: 100%;
+}
+
+.span-11 {
+  	width: 91.52%;
+}
+.span-10 {
+  	width: 83.05%;
+}
+
+.span-9 {
+  	width: 74.57%;
+}
+
+.span-8 {
+  	width: 66.1%;
+}
+
+.span-7 {
+  	width: 57.62%;
+}
+
+.span-6 {
+  	width: 49.15%;
+}
+
+.span-5 {
+  	width: 40.67%;
+}
+
+.span-4 {
+  	width: 32.2%;
+}
+
+.span-3 {
+  	width: 23.72%;
+}
+
+.span-2 {
+  	width: 15.25%;
+}
+
+.span-1 {
+  	width: 6.775%;
+}
+
+
+header {
+    background-image: url(../images/masthead.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 951px;
+}
+
+.logo {
+    margin: 55px 0;
+}
+
+.headCTA {
+    padding: 306px 0 0;
+    position: relative;
+}
+
+.headCTA span,
+.power span {
+    color: #FFF;
+    font-size: 62px;
+    font-weight: 300;
+}
+
+.headCTA p,
+.power p {
+    color: #FFF;
+    font-size: 15px;
+    line-height: 160%;
+    padding: 0 300px 0 0;
+}
+
+.iphone {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    margin: 10% 0 0 45%
+}
+
+section {
+    padding: 113px 0 0 0;
+}
+
+.something-new p,
+.details p {
+    color: #959595;
+}
+
+.offset-p {
+    margin: 12% 0 0;
+}
+
+/*
+=======================================
+    Boxes
+=======================================
+*/
+
+.boxes {
+    padding: 0;
+    margin: 
+}
+
+.boxes .col {
+    margin: 0 !important;
+}
+
+.boxes .col {
+    padding: 50px 43px;
+    margin: 0;
+}
+
+.pink {
+    background-color: #f5989d;
+}
+
+.purple {
+    background-color: #615f7d;
+}
+
+.green {
+    background-color: #82ca9c;
+}
+
+.boxes p,
+.boxes h2,
+.boxes a {
+    color: #FFF;
+}
+
+.boxes a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.boxes p {
+    font-size: 14px;
+}
+
+.box-large {
+    background-image: url(../images/box-large.jpg);
+    background-repeat: no-repeat;
+    max-width: 735px;
+}
+
+.box-large a {
+    display: block;
+    margin-top: 63px;
+}
+
+.box-small {
+    background-image: url(../images/box-small.jpg);
+    background-repeat: no-repeat;
+}
+
+.details {
+    margin-bottom: 70px;
+}
+
+/*
+=======================================
+    Power
+=======================================
+*/
+
+.power {
+    background-image: url(../images/more-power-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    max-height: 877px;
+    padding: 400px 0;
+    background-attachment: fixed;
+}
+
+.power a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.power .cta-power {
+    margin: 90px 0;
+}
+
+/*
+=======================================
+    Onboard
+=======================================
+*/
+
+.onboard {
+    background-color: #82ca9c;
+    padding: 120px 0;
+}
+
+.onboard h1, .onboard h3,
+.onboard p {
+    color: #FFF;
+}
+
+.onboard h3 {
+    font-weight: 700;
+}
+
+.onboard .group {
+    padding-top: 50px;
+}
+
+/*
+=======================================
+    Products
+=======================================
+*/
+
+.products {
+    background-color: #f6f7fa;
+    padding: 110px 0;
+}
+
+.products p {
+    color: #8297a7;
+}
+
+.btn {
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    max-width: 100px;
+    text-align: center;
+    color: #FFF;
+    padding: 5px 0;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.legacy {
+    background-color: #e1e1e1;
+    max-width: 60px;
+}
+
+.popular {
+    background-color: #bd8cbf;
+}
+
+.item {
+    padding: 20px;
+}
+
+.featured {
+    -webkit-box-shadow: -2px 0px 133px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 0px 133px -14px rgba(0,0,0,0.75);
+    box-shadow: -2px 0px 133px -14px rgba(0,0,0,0.75);
+}
+
+.button {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 0;
+    max-width: 160px;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: #82ca9c;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+i {
+    color: #c5c5c5;
+    margin-right: 5px;
+}
+
+
+/*
+=======================================
+    Footer
+=======================================
+*/
+
+footer {
+    background-color: #192431;
+    padding: 100px 0;
+}
+
+footer h3, p, a {
+    color: #FFF;
+    font-size: 14px;
+}
+
+footer h3 {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+footer form {
+    margin-top: 20px;
+}
+
+footer input {
+    padding: 10px;
+}
+
+footer input[type="text"] {
+    width: 85%;
+}
+
+footer input[type="submit"] {
+    width: 15%;   
+    background-color: #82ca9c;
+    color: #FFF;
+    cursor: pointer;
+    border-color: #82ca9c;
+}
+
+.disclaimer {
+    color: #57697f;
+}
+
+footer .span-5 {
+    padding: 0 30px;
+}
+
+footer ul {
+    text-align: left;
+    margin: 20px 0;
+    padding: 0;
+}
+
+footer ul li {
+    list-style-type: none;
+    padding: 3px 0;
+}
+
+footer a {
+    text-decoration: none;
+}
